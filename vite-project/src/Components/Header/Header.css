@@ -1,0 +1,24 @@
+.Title {
+    font-family: "Playfair Display", "Cormorant Unicase", "Roboto", sans-serif;
+    font-size: 1.2em; 
+  }
+  
+  
+  .headerColor{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .headerColor::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(112, 128, 144, 0.2); /* Dark overlay with 50% opacity */
+    z-index: 1; /* Ensure it appears above the background image but below text */
+  }
+  
+  .headerColor * {
+    position: relative; /* Ensures text and child elements are above the ::before */
+    z-index: 2;
+  }
