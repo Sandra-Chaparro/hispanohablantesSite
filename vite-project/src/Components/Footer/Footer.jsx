@@ -37,7 +37,7 @@ const socialMedia = [
 
 const Footer = () => {
   return (
-    <div className="w-full mt-12 text-gray-300 py-1 px-2 footer bg-[#213555]">
+    <div className="w-full mt-12 text-gray-300 py-1 px-2 footer bg-[#B22727]">
       <div className="max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-4 border-b-2 border-gray-600 py-4 gap-4">
         {" "}
         {/* Added gap-4 */}
